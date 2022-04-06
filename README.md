@@ -1,52 +1,34 @@
 # Project Name
-> Outline a brief description of your project.
+> Advanced Regression using Ridge and Lasso regression 
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+## Objective
+> A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them at a higher price. The company wants to know:
 
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+-Which variables are significant in predicting the price of a house, and
+-How well those variables describe the price of a house.
+Based on various market surveys, the consulting firm has gathered a large dataset of different types of cars across the American market.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+The optimal lambda value in case of Ridge and Lasso is as below:
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+Ridge - 0.2
+Lasso - 10
+The R Squared value in case of Ridge and Lasso are:
 
+Ridge - 0.8493
+Lasso - 0.8497
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+The RMSE value in case of Ridge and Lasso are:
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+Ridge - 862342848.7406102
+Lasso - 1069309274.8658706
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+The R Squared Value of Lasso is slightly higher than that of Ridge
 
+Also, since Lasso helps in feature reduction (as the coefficient value of one of the feature became 0), Lasso has a better edge over Ridge.
 
-## Contact
-Created by [@githubusername] - feel free to contact me!
+Hence based on Lasso, the factors that generally affect the price are the Zoning classification, Living area square feet, Overall quality and condition of the house, Foundation type of the house, Number of cars that can be accomodated in the garage, Total basement area in square feet and the Basement finished square feet area
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->
